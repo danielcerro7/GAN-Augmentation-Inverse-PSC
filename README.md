@@ -12,7 +12,7 @@ Official implementation of a two-stage framework for Perovskite Solar Cells: Unc
 7.  **ROBUSTNESS TESTING OF THE INVERSE DESIGN:** Stress testing of the framework by introducing random noise (ranging from 0% to 10%) into the synthesis parameters to evaluate the stability of the inverse mapping.
 
 ### Datasets
-The `data/` directory contains the three essential CSV files required to reproduce the experiments:
+Contains the three essential CSV files required to reproduce the experiments:
 
 * **`Data_train.csv`**: The primary experimental dataset used to train the generative models (GAN/AC-GAN) and the Virtual Laboratory (80% split).
 * **`Data_test.csv`**: The hold-out dataset used exclusively for validating the predictive models and evaluating generalization capabilities (20% split).
